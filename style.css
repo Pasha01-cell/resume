@@ -1,0 +1,790 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    color: white;
+    background-color: rgb(10, 10, 57);
+    opacity: 0.8;
+}
+#header h1{
+    color: white;
+}
+#header li{
+    color: white;
+}
+#header li a{
+    color: white;
+}
+#header li a:hover{
+    color: rgb(126, 126, 216);
+
+}
+/*banner css*/
+#banner{
+    background-color: rgb(10, 10, 57);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+#banner img{
+    margin-left: 90px;
+    margin-top: 100px;;
+}
+#banner .animated{
+    max-width: 100%;
+   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: pasha 2s ease-out infinite alternate-reverse both;
+    
+}
+@keyframes pasha {
+    form{
+        width: 200px;
+    }
+    to{
+       width: 400px; 
+    }
+}
+#banner .btyn{
+    margin-bottom: 15px;
+}
+#banner h1{
+    margin-top: 130px;
+}
+#banner p{
+    margin-bottom: 30px;
+}
+.pic{
+    margin-top: 40px;
+}
+#banner .pic{
+    color: aqua;
+}
+#banner .pic:hover{
+    text-decoration: none;
+    width: 30px;
+}
+i.bi-play-circle{
+    color: white;
+    margin-left:40px;
+     text-decoration: none;
+     font-size: 30px;
+}
+.bi-play-circle i a:hover{
+     text-decoration: dashed;
+     
+}
+.navbar-toggler{
+    color: white!important;
+}
+/*client css */
+.client{
+    background-color: rgb(230, 230, 243);
+    height: auto;
+}
+.client img{
+    max-width: 45%;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    padding: 20px auto;
+    filter: grayscale(100);
+    margin-top: 25px;
+}
+.client img:hover{
+    filter: none;
+    max-width: 50%;
+}
+/*secsion*/
+#secsion{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#secsion .heading::after{
+    background: rgb(87, 91, 223);
+    content: "";
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    
+}
+/*accordian list*/
+.for-us{
+    background-color: rgb(240, 240, 248);
+}
+.for-us h1{
+    margin-top: 100px;
+    color: rgb(51, 53, 150);
+}
+.accordian-list .card{
+    margin-bottom: 15px;
+    border: 0;
+    
+}
+.accordian-list .card a span{
+    color: rgb(71, 71, 191);
+    
+    
+}
+.accordian-list .btn{
+    color: rgb(71, 71, 191);
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.accordian-list .card a{
+    color: black; 
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.accordian-list .card a:hover{
+    color: rgb(71, 71, 191);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+/*skill css*/
+#skill{
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+#skill img{
+    margin-top: 50px;
+    height: 400px;
+}
+#skill h1{
+    color: rgb(51, 53, 150);
+}
+.progress{
+    margin-bottom: 20px;
+}
+.progress-skill{
+    color:  rgb(51, 53, 150);
+}
+.progress-bar{
+    background: rgb(51, 53, 150);
+    border-radius: 30px;
+}
+/*services*/
+.services{
+    background-color: rgb(240, 240, 248);
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.services h1{
+    padding-top: 65px;
+}
+.services .card{
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.5s;
+  box-sizing: border-box;
+}
+.services .card:hover{
+    transform: scale(1.15);
+}
+
+.card .card-title{
+    color: rgb(51, 53, 150);
+}
+.card .card-title:hover{
+    color: rgb(115, 115, 245);
+
+}
+.card .card-title a{
+    color: rgb(51, 53, 150);
+    text-decoration: none;
+}
+.card .card-title a:hover{
+    color: rgb(115, 115, 245);
+    text-decoration: none;
+}
+.card i{
+    font-size: 30px;
+    color: rgb(115, 115, 245);
+    
+}
+/*call*/
+.call{
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(img/cta-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 120px auto;
+    height: 300px;
+}
+.call h3{
+    margin-top: 70px;
+    color: white;
+    font-weight: bold;
+}
+.call p{
+    color: white;
+}
+.call a{
+    margin-left: 80px;
+    margin-top: 90px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 29px;
+}
+.call a:hover{
+   background-color: rgba(96, 146, 232, 0.9);
+    color: white;
+    border: 3px solid rgba(96, 146, 232, 0.9);
+    border-radius: 29px;
+}
+/*portfolio*/
+.portfolio ul{
+    justify-content: center;
+}
+.portfolio li a{
+       border: 0px;
+       border-radius: 2rem;
+}
+.portfolio .card .img-fluid{
+    max-width: 100%;
+    transition: all 0.3;
+
+}
+.portfolio .card .img-fluid:hover{
+   transition: all 0.3;
+
+}
+
+
+
+.portfolio .card .card-info{
+        opacity: 0;
+        position: absolute;
+        left: 0px;
+        bottom: 0;
+        z-index: 3;
+        right: 0px;
+        transition: all 0.3s;
+        background: rgba(55, 81, 126, 0.8);
+        padding: 10px 15px;
+        display: flex;
+        color: white;
+        
+}
+
+.portfolio .card .card-info:hover{
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    z-index: 3;
+    right: 0px;
+    transition: all 0.3s;
+    background: rgba(55, 81, 126, 0.8);
+    padding: 10px 15px;
+}
+
+.portfolio .card:hover .card-info{
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    z-index: 3;
+    right: 0px;
+    transition: all 0.3s;
+    background: rgba(55, 81, 126, 0.8);
+    padding: 10px 15px;
+}
+/*team*/
+.team{
+    background-color: rgb(240, 240, 248);
+    font-family:Arial, Helvetica, sans-serif ;
+    width: 100%;
+    
+}
+
+.team h4{
+    color: rgba(43, 61, 92, 0.9);
+}
+.team span::after{
+       content: "";
+       background-color: rgba(43, 61, 92, 0.9);
+       display: block;
+       height: 1px;
+       width: 15%;
+       
+}
+.team .card img{
+    border-radius: 150px;
+    width: 150px;
+    height: 150px;
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-right: 90px;
+}
+.team .card-body .btn{
+   background-color: rgb(240, 240, 248);
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 10px ;
+}
+.team .card-body .btn:hover{
+    background-color: rgba(96, 146, 232, 0.9);
+ }
+.team .card-body i{
+    color: rgba(40, 48, 61, 0.9);
+    font-size: 20px;
+    
+    
+}
+.team .card{
+    transition: all 1s ease-out;
+}
+.team .card:hover{
+    transform: scale(1.15);
+}
+/*pricing*/
+.pricing .card{
+    background: #fff;
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+    border-radius: 8px;
+    border-top: 2px solid #fff;
+    height: 100%;
+
+}
+.pricing .head h3{
+    color: rgb(42, 58, 137);
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.pricing h4{
+     font-size: 40px;
+     color: rgba(43, 61, 92, 0.9);
+     
+}
+.pricing sup{
+    font-size: 27px;
+    color: rgba(43, 61, 92, 0.9);
+}
+.pricing span{
+    margin-top: 10px;
+    display: block;
+    font-size: 20px;
+    color: rgb(99, 119, 221);
+}
+
+.pricing .head{
+    margin-left: 30px;
+    
+}
+.pricing .card-body a{
+    border: 2px solid rgb(99, 119, 221);
+    color: rgb(99, 119, 221);
+}
+.pricing .card-body a:hover{
+    border: 2px solid rgba(74, 104, 156, 0.9);
+    background-color: rgba(74, 104, 156, 0.9);
+}
+/*question*/
+.question{
+    background-color: rgb(230, 230, 243);
+}
+.question a{
+        border: 0;
+        text-decoration: none;
+}
+.question a:hover{
+    border: 0;
+    background-color: white;
+    text-decoration: none;
+}
+
+.question a b{
+    color: rgba(46, 75, 124, 0.9);
+    font-size: 16px;
+}
+.question .card-header{
+    border-bottom: none;
+    background-color: #fff;
+}
+.question a b:hover{
+    color: rgba(86, 139, 232, 0.9);
+    font-size: 16px;
+}
+.question .card-header a{
+    text-decoration: none;
+}
+
+.question .card-header .bi-arrow-down-up{
+    color: rgba(46, 75, 124, 0.9);
+    margin-left: 90%;
+    font-size: 20px;
+}
+.question .bi-question-circle{
+    margin-left: 20%;
+    font-size: 20px;
+}
+/*contact*/
+.contact .info{
+    border-top: 3px solid rgba(86, 139, 232, 0.9);
+    border-bottom: 3px solid rgba(86, 139, 232, 0.9);
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 0px 12px 0px rgb(109, 104, 104);
+}
+.contact .info i{
+    font-size: 30px;
+    float: left;
+    display: flex;
+    color: rgba(86, 139, 232, 0.9);
+    width: 44px;
+    height: 44px;
+    background: #e7f5fb;
+    justify-content: end;
+    align-items: center;
+    border-radius: 50px;
+    padding: 6px;
+}
+.contact .info h4{
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 30px;
+    margin-bottom: 4px;
+    
+}
+.contact .info p{
+    padding-left: 70px;
+}
+.contact .info .Email:hover i,
+.contact .info .address:hover i,
+.contact .info .Call:hover i{
+    background: #47b2e4;
+    color: #fff;
+}
+.contact .info .Email{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact .identity{
+    border-top: 3px solid rgba(86, 139, 232, 0.9);
+    border-bottom: 3px solid rgba(86, 139, 232, 0.9);
+    box-shadow: 0px 0px 12px 0px rgb(109, 104, 104);
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+}
+.contact .identity textarea{
+    height: 275px;
+}
+.contact .identity label{
+    font-weight: 500;
+    color: rgba(46, 75, 124, 0.9);
+}
+.contact .identity a{
+    background-color: #47b2e4;
+    color: white;
+    border-radius: 50px;
+}
+.contact .identity a:hover{
+    background-color: #44829e;
+    color: white;
+    border-radius: 50px;
+}
+.subscribe{
+    background-color: rgb(230, 230, 243);
+    height: 100%;
+}
+.subscribe .text{
+    margin-top: 50px;
+    text-align: center;
+}
+.subscribe .input-group{
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.subscribe .form-control{
+    border-radius: 40px;
+}
+
+.subscribe .input-group a{
+    background-color: #47b2e4;
+    color: white;
+    border-radius: 50px;
+    
+}
+.subscribe .input-group a:hover{
+    background-color: #44829e;
+    color: white;
+    border-radius: 50px;
+}
+
+/*sub-footer*/
+.sub-footer{
+    margin-bottom: 30px;
+}
+.sub-footer h4{
+        font-size: 20px;
+}
+.sub-footer p{
+    color: rgb(49, 61, 67);
+}
+.sub-footer i{
+    font-size: small;
+    color: #48abda;
+}
+.sub-footer a{
+    color:rgb(49, 61, 67);
+}
+.sub-footer a:hover{
+    color:rgb(80, 98, 108);
+    text-decoration: none;
+}
+.sub-footer .social-icon i{
+    font-size: 20px;
+    color: white;
+    
+}
+
+.sub-footer .social-icon .btn{
+    border-radius: 50px;
+    background-color: #47b2e4;
+    color: white;
+}
+.sub-footer .social-icon .btn:hover{
+    background-color: #5e9fbd;
+}
+/*footer*/
+.footer{
+    background-color: rgb(10, 10, 57);
+    opacity: 0.8;
+    height: 80px;
+    margin-bottom: 0px;
+}
+.footer h6{
+    margin-top: 27px;
+    color: white;
+}
+.footer span{
+    padding-bottom: 30px;
+}
+
+@media (max-width:1024px) {
+    
+    .navbar-toggler-icon{
+        background-color: #fff !important;
+    }
+    #banner{
+        width: 108%;
+    }
+    .client{
+        width: 108%;
+    }
+    .about-us{
+        width: 108%;
+    }
+    .for-us{
+        width: 108%;
+    }
+    #skill{
+        width: 108%;
+    }
+
+   
+    .services{
+        width: 108%;
+    }
+    .question .card-header .bi-arrow-down-up{
+        color: rgba(46, 75, 124, 0.9);
+        margin-left: 57%;
+        font-size: 20px;
+    }
+    .call{
+        width: 108%;
+    }
+    .portfolio{
+        width: 108%;
+    }
+    .team{
+        width: 108%;
+    }
+    .pricing{
+        width: 108%;
+    }
+    
+}
+
+@media (max-width:768px) {
+   
+    #banner{
+        width: 140%;
+    }
+    #banner img{
+        margin-left: -20px;
+    }
+    #banner i{
+        margin-left: 1px;
+    }
+    #banner .animated{
+        animation: none;
+    }
+    .client{
+        width: 140%;
+    }
+    .navbar-toggler-icon{
+        background-color: #fff !important;
+    }
+    .about-us{
+        width: 140%;
+    }
+    .for-us{
+        width: 140%;
+    }
+    #skill{
+        width: 140%;
+    }
+    .services{
+        width: 140%;
+    }
+
+    .question .card-header .bi-arrow-down-up{
+        color: rgba(46, 75, 124, 0.9);
+        margin-left: 15%;
+        font-size: 20px;
+    }
+    .call{
+        width: 140%;
+    }
+    .portfolio{
+        width: 140%;
+    }
+    .team{
+        width: 140%;
+    }
+    .pricing{
+        width: 140%;
+    }
+   
+}
+
+@media (max-width:426px) {
+   
+    #banner{
+        width: 217%;
+    }
+    #banner img{
+        margin-left: 30%;
+    }
+    .client{
+        width: 217%;
+        text-align: center;
+    }
+    .about-us{
+        width: 217%;
+    }
+    .for-us{
+        width: 217%;
+    }
+    #skill{
+        width: 217%;
+    }
+    .services{
+        width: 217%;
+    }
+    .call{
+        width: 217%;
+    }
+    .call a{
+        margin-top: 43px;
+    }
+    .portfolio{
+        width: 217%;
+    }
+    .team{
+        width: 217%;
+    }
+    .pricing{
+        width: 217%;
+    }
+    
+}
+
+@media (max-width:376px) {
+ 
+    #banner{
+         width: 245%;
+    }
+    .client{
+        width: 245%;
+    }
+    .about-us{
+        width: 245%;
+    }
+    .for-us{
+        width: 245%;
+    }
+    #skill{
+        width: 245%;
+    }
+    .services{
+        width: 245%;
+    }
+    .call{
+        width: 245%;
+    }
+    .portfolio{
+        width: 245%;
+    }
+    .team{
+        width: 245%;
+    }
+    .pricing{
+        width: 245%;
+    }
+   
+  
+}
+
+@media (max-width:321px) {
+    #banner{
+        width: 288%;
+   }
+   .client{
+       width: 288%;
+   }
+   .about-us{
+       width: 288%;
+   }
+   .for-us{
+    width: 288%;
+   }
+   #skill{
+    width: 288%;
+   }
+   .services{
+    width: 288%;
+   }
+   .call{
+    width: 288%;
+   }
+   .portfolio{
+    width: 288%;
+   }
+   .team{
+    width: 288%;
+   }
+   .pricing{
+    width: 288%;
+   }
+  
+}
+
+
